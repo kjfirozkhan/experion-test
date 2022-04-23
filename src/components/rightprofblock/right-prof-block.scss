@@ -1,0 +1,31 @@
+@import '../../scss/partials/varibales';
+
+.right-prof-block{
+  position: relative;
+  float: right;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-left: 1px solid $left-menu-color;
+  cursor: pointer;
+  .prof-img{
+    float: left;
+    width: 34px;
+    height: 34px;
+    background-color: $prof-img-bg;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .prof-name{
+    float: left;
+    margin: 7px 0 0 7px;
+    font-size: 16px;
+    color: $common-text-color;
+    font-weight: 400;
+  }
+  svg{
+    float: right;
+    margin-top: 8px;
+    margin-left: 6px;
+  }
+}

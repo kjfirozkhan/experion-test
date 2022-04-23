@@ -1,0 +1,16 @@
+
+@import '../../scss/partials/varibales';
+
+.filtered-span{
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: $common-text-color;
+  background-color: $filter-bg;
+  border-radius: 4px;
+  svg{
+    margin: 3px 0 0 12px;
+  }
+}

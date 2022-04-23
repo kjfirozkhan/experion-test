@@ -1,0 +1,32 @@
+// Colors
+$primary-color: #536DFE;
+$filter-btn-color: #0F42DF;
+$cart-btn-color: #1750FF;
+$cart-btn-hover-color: #1545d7;
+$white-color: #fff;
+$common-text-color: #041131;
+$left-menu-color: #0F255F;
+$filter-bg: #E8E8FF;
+$header-border-color: #E5E5EC;
+$prof-img-bg: #e4e4e4;
+$input-focus-color: #0F42DF;
+$modal-fade-color: #071538;
+
+// Media Query
+@mixin mq($point) {
+  @if $point == extraLarge {
+    @media (max-width: 1499px) { @content ; }
+  }
+  @if $point == large {
+    @media (max-width: 1200px) { @content ; }
+  }
+  @if $point == medium {
+    @media (max-width: 992px) { @content ; }
+  }
+  @if $point == small {
+    @media (max-width: 767px) { @content ; }
+  }
+  @if $point == tiny {
+    @media (max-width: 575px) { @content ; }
+  }
+}

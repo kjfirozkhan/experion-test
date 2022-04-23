@@ -1,0 +1,21 @@
+@import '../../scss/partials/varibales';
+
+.card-bottom-wrap{
+  padding: 0 15px 15px 15px;
+  h3{
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: $common-text-color;
+  }
+  h5{
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: $common-text-color;
+  }
+  strong{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../scss/partials/varibales';
+
+.filterblock-wrap{
+  h4{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: $common-text-color;
+  }
+  .leftblock{
+    float: left;
+  }
+  .rightblock{
+    float: right;
+  }
+}
+
+.clearfix{
+  &:after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../scss/partials/varibales';
+
+.form-group{
+  label{
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $common-text-color;
+  }
+  .form-control{
+    padding: 8px 10px;
+    font-size: 14px;
+    color: $common-text-color;
+    border: 1px solid #E5E5EC;
+    border-radius: 4px;
+    outline: none;
+  }
+}

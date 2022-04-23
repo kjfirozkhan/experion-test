@@ -1,0 +1,21 @@
+@import '../../scss/partials/varibales';
+
+.header {
+  position: fixed;
+  // display: flex;
+  top: 0;
+  right: 0;
+  width: calc(100% - 80px);
+  height: 75px;
+  background-color: $white-color;
+  color: white;
+  border-bottom: 1px solid $header-border-color;
+  z-index: 9;
+  h1{
+    float: left;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: $common-text-color;
+  }
+}

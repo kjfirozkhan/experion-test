@@ -1,0 +1,19 @@
+@import '../../scss/partials/varibales';
+
+.addtocart-btn{
+  display: none;
+  margin: 0 auto 20px auto;
+  width: 80%;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+  color: $white-color;
+  background-color: $cart-btn-color;
+  cursor: pointer;
+  &:hover{
+    background-color: $cart-btn-hover-color;
+    transition: 0.3s all ease-in-out;
+  }
+}

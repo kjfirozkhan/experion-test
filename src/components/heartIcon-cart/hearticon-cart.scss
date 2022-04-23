@@ -1,0 +1,19 @@
+@import '../../scss/partials/varibales';
+
+.hearticon-cart{
+  .heart-icon-white{
+    display: block;
+  }
+  .heart-icon-red{
+    display: none;
+  }
+  &:hover,
+  &.active{
+    .heart-icon-white{
+      display: none;
+    }
+    .heart-icon-red{
+      display: block;
+    }
+  }
+}

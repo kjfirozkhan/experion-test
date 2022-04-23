@@ -1,0 +1,23 @@
+@import '../../scss/partials/varibales';
+
+.content-top-wrap{
+  h3{
+    float: left;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: $common-text-color;
+  }
+  .rightblock{
+    float: right;
+    margin-top: 15px;
+  }
+}
+
+.clearfix{
+  &:after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+}

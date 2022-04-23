@@ -1,0 +1,15 @@
+@import '../../scss/partials/varibales';
+
+.submenuWrap{
+  margin-top: 70px;
+  .menuList{
+    display: block;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    &.active,
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}
