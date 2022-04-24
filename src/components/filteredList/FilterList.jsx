@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './filterlist.scss';
 
 const FilterList = props => {

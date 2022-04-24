@@ -11,7 +11,7 @@
   z-index: 99;
 }
 .filtermodal{
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 500px;
@@ -28,7 +28,7 @@
     line-height: 40px;
     text-align: center;
     border-radius: 50px;
-    background-color: #F6F9FE;
+    background-color: $closebtn-color;
     cursor: pointer;
   }
   .filter-body-wrap{

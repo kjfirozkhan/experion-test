@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react';
-import ColorCircle from '../color-circle/ColorCircle';
 import './checkbox.scss';
 
 const Checkbox = props => {
@@ -8,6 +6,7 @@ const Checkbox = props => {
             <div className="form-group">
                 <input type="checkbox" id={props.checkboxLabel}></input>
                 <label for={props.checkboxLabel}>{props.checkboxLabel}</label>
+                <span className="count-span">({props.count})</span>
             </div>
         </div>
     )

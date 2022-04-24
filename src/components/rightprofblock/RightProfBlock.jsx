@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './right-prof-block.scss';
 import profimg from '../../assets/images/prof-img.png';
 

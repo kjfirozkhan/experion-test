@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import Filterbtns from '../filterbtns/Filterbtns';
 import FilterList from '../filteredList/FilterList';
 import './filterblock.scss';

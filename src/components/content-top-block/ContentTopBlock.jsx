@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import SortSelect from '../sort-select/SortSelect';
 import './contenttopblock.scss';
 

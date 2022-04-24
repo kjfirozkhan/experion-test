@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './searchinput.scss';
 
 const SearchInput = props => {

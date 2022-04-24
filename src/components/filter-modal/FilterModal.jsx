@@ -10,78 +10,100 @@ const FilterModal = props => {
     const GENDERLIST = [
         {
             checkboxLabel: 'Men',
+            count: '10',
         },
         {
             checkboxLabel: 'Women',
+            count: '10',
         },
         {
             checkboxLabel: 'Boys',
+            count: '10',
         },
         {
             checkboxLabel: 'Girls',
+            count: '10',
         },
     ];
 
     const PRICELIST = [
         {
             checkboxLabel: 'Rs. 1997 to Rs. 6172',
+            count: '9',
         },
         {
             checkboxLabel: 'Rs. 10347 to Rs. 14722',
+            count: '33',
         },
         {
             checkboxLabel: 'Rs. 6172 to Rs. 10347',
+            count: '25',
         },
         {
             checkboxLabel: 'Rs. 14522 to Rs. 18697',
+            count: '18',
         },
         {
             checkboxLabel: 'Rs. 10347 to Rs. 14522',
+            count: '105',
         },
         {
             checkboxLabel: 'Rs. 14522 to Rs. 18697',
+            count: '22',
         },
     ];
 
     const CATEGORIESLIST = [
         {
             checkboxLabel: 'Tshirts',
+            count: '106',
         },
         {
             checkboxLabel: 'Track Pants',
+            count: '156',
         },
         {
             checkboxLabel: 'Sports Shoes',
+            count: '174',
         },
         {
             checkboxLabel: 'Tights',
+            count: '5',
         },
         {
             checkboxLabel: 'Casual Shoes',
+            count: '106',
         },
         {
             checkboxLabel: 'Sweatshirts',
+            count: '156',
         },
         {
             checkboxLabel: 'Shorts ',
+            count: '174',
         },
         {
             checkboxLabel: 'Tops',
+            count: '5',
         },
     ];
 
     const COLORLIST = [
         {
             checkboxLabel: 'Black',
+            count: '106',
         },
         {
             checkboxLabel: 'White',
+            count: '156',
         },
         {
             checkboxLabel: 'Blue',
+            count: '174',
         },
         {
             checkboxLabel: 'Pink',
+            count: '5',
         },
     ];
 
@@ -103,6 +125,7 @@ const FilterModal = props => {
                             {GENDERLIST.map((gender) => (
                                 <Checkbox
                                     checkboxLabel={gender.checkboxLabel}
+                                    count={gender.count}
                                 />
                             ))}
                         </div>
@@ -111,6 +134,7 @@ const FilterModal = props => {
                             {PRICELIST.map((price) => (
                                 <Checkbox
                                     checkboxLabel={price.checkboxLabel}
+                                    count={price.count}
                                 />
                             ))}
                         </div>
@@ -119,6 +143,7 @@ const FilterModal = props => {
                             {CATEGORIESLIST.map((categories) => (
                                 <Checkbox
                                     checkboxLabel={categories.checkboxLabel}
+                                    count={categories.count}
                                 />
                             ))}
                         </div>
@@ -127,6 +152,7 @@ const FilterModal = props => {
                             {COLORLIST.map((color) => (
                                 <Checkbox
                                     checkboxLabel={color.checkboxLabel}
+                                    count={color.count}
                                 />
                             ))}
                         </div>

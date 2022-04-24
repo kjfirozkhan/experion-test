@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import CardSet from '../card-set/CardSet';
 import './cardblock.scss';
 

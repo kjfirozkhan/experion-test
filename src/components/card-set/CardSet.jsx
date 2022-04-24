@@ -1,5 +1,3 @@
-import { Button } from 'bootstrap';
-import React, { Fragment } from 'react';
 import AddToCartBtn from '../addtocart-btn/AddToCartBtn';
 import CardSetImg from '../card-set-img/CardSetImg';
 import CardSetText from '../card-set-text/CardSetText';

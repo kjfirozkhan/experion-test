@@ -1,8 +1,5 @@
-import React, { Fragment } from 'react';
 import HeaderRightBlock from '../headerRightBlock/HeaderRightBlock';
 import './header.scss';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
 
 const Header = props => {
     return (

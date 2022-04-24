@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './logo.scss';
 
 const Logo = props => {

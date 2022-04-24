@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react';
-import Logo from '../logo/Logo';
 import './headerRightBlock.scss';
 import SearchInput from '../searchinput/SearchInput';
 import HeartIcon from '../heartIcon/HeartIcon';

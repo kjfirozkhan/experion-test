@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './sort-select.scss';
 
 const SortSelect = props => {

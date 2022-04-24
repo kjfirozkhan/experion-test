@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react';
-import Logo from '../logo/Logo';
 import './submenu.scss';
 
 const Submenu = props => {

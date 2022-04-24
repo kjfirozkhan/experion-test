@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import './carticon.scss';
 
 const CartIcon = props => {

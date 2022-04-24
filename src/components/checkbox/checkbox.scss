@@ -16,8 +16,8 @@
       &:checked{
         &+ label:before {
           content: '';
-          border-color: #0079bf;
-          background: #0079bf;
+          border-color: $checkbox-checked-bgcolor;
+          background: $checkbox-checked-bgcolor;
         }
         &+ label:after {
           content: '';
@@ -35,6 +35,7 @@
     }
     label {
       position: relative;
+      margin-right: 5px;
       cursor: pointer;
       &:before {
         content:'';
@@ -43,8 +44,8 @@
         top: -1px;
         margin-right: 5px;
         padding: 7px;
-        background: #F8F9FB;
-        border: 1px solid #BEC1D2;
+        background: $checkbox-unchecked-bgcolor;
+        border: 1px solid $checkbox-unchecked-border-color;
         box-sizing: border-box;
         vertical-align: middle;
         background-color: transparent;
@@ -52,6 +53,11 @@
         -webkit-appearance: none;
         cursor: pointer;
       }
+    }
+    .count-span{
+      font-size: 12px;
+      font-weight: 400;
+      color: $common-text-color;
     }
   }
 }

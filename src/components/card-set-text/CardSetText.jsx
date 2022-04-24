@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react';
-import CardSetImg from '../card-set-img/CardSetImg';
 import './cardsettext.scss';
 
 const CardSetText = props => {

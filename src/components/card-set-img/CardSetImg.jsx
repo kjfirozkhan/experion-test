@@ -1,6 +1,4 @@
-import React, { Fragment } from 'react';
 import './cardsetimg.scss';
-import image1 from '../../assets/images/img-1.jpg';
 
 const CardSetImg = props => {
     return (

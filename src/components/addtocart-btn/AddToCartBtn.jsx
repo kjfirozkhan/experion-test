@@ -1,5 +1,3 @@
-import { Button } from 'bootstrap';
-import React, { Fragment } from 'react';
 import './addtocart.scss';
 
 const AddToCartBtn = props => {
