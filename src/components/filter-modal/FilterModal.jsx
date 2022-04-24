@@ -7,6 +7,84 @@ const FilterModal = props => {
         props.onHideFilter();
     }
 
+    const GENDERLIST = [
+        {
+            checkboxLabel: 'Men',
+        },
+        {
+            checkboxLabel: 'Women',
+        },
+        {
+            checkboxLabel: 'Boys',
+        },
+        {
+            checkboxLabel: 'Girls',
+        },
+    ];
+
+    const PRICELIST = [
+        {
+            checkboxLabel: 'Rs. 1997 to Rs. 6172',
+        },
+        {
+            checkboxLabel: 'Rs. 10347 to Rs. 14722',
+        },
+        {
+            checkboxLabel: 'Rs. 6172 to Rs. 10347',
+        },
+        {
+            checkboxLabel: 'Rs. 14522 to Rs. 18697',
+        },
+        {
+            checkboxLabel: 'Rs. 10347 to Rs. 14522',
+        },
+        {
+            checkboxLabel: 'Rs. 14522 to Rs. 18697',
+        },
+    ];
+
+    const CATEGORIESLIST = [
+        {
+            checkboxLabel: 'Tshirts',
+        },
+        {
+            checkboxLabel: 'Track Pants',
+        },
+        {
+            checkboxLabel: 'Sports Shoes',
+        },
+        {
+            checkboxLabel: 'Tights',
+        },
+        {
+            checkboxLabel: 'Casual Shoes',
+        },
+        {
+            checkboxLabel: 'Sweatshirts',
+        },
+        {
+            checkboxLabel: 'Shorts ',
+        },
+        {
+            checkboxLabel: 'Tops',
+        },
+    ];
+
+    const COLORLIST = [
+        {
+            checkboxLabel: 'Black',
+        },
+        {
+            checkboxLabel: 'White',
+        },
+        {
+            checkboxLabel: 'Blue',
+        },
+        {
+            checkboxLabel: 'Pink',
+        },
+    ];
+
     return (
         <Fragment>
             <div className='filtermodalfade'></div>
@@ -22,25 +100,36 @@ const FilterModal = props => {
                     <h3>Filters</h3>
                     <form action="">
                         <div className="checkbox-main-wrap clearfix">
-                            <Checkbox/>
-                            <Checkbox/>
+                            {GENDERLIST.map((gender) => (
+                                <Checkbox
+                                    checkboxLabel={gender.checkboxLabel}
+                                />
+                            ))}
                         </div>
                         <div className="checkbox-main-wrap clearfix">
                             <h4>Price</h4>
-                            <Checkbox/>
-                            <Checkbox/>
+                            {PRICELIST.map((price) => (
+                                <Checkbox
+                                    checkboxLabel={price.checkboxLabel}
+                                />
+                            ))}
                         </div>
                         <div className="checkbox-main-wrap clearfix">
                             <h4>Categories</h4>
-                            <Checkbox/>
-                            <Checkbox/>
+                            {CATEGORIESLIST.map((categories) => (
+                                <Checkbox
+                                    checkboxLabel={categories.checkboxLabel}
+                                />
+                            ))}
                         </div>
                         <div className="checkbox-main-wrap clearfix">
                             <h4>Color</h4>
-                            <Checkbox/>
-                            <Checkbox/>
+                            {COLORLIST.map((color) => (
+                                <Checkbox
+                                    checkboxLabel={color.checkboxLabel}
+                                />
+                            ))}
                         </div>
-
                     </form>
                 </div>
                 <div className="btn-wrap">
