@@ -9,9 +9,9 @@ import './cardset.scss';
 const CardSet = props => {
     return (
         <div className="card-block">
-            <CardSetImg />
-            <HeartIconCart />
-            <CardSetText />
+            <CardSetImg image={props.image}/>
+            <HeartIconCart is_favorite={props.is_favorite}/>
+            <CardSetText title={props.title} description={props.description} price={props.price}/>
             <AddToCartBtn />
         </div>
     )

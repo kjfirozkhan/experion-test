@@ -11,7 +11,6 @@ const ContentArea = props => {
             <Filterblock />
             <ContentTopBlock />
             <CardBlock />
-            {/* <FilterModal/> */}
         </div>
     )
 }

@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react';
 import './right-prof-block.scss';
-// import profimg from '../../images/prof-img.png';
+import profimg from '../../assets/images/prof-img.png';
 
 const RightProfBlock = props => {
     return (
         <div className="right-prof-block">
-
             <a href="#" className='prof-img'>
-                {/* <img src={profimg} /> */}
+                <img src={profimg} />
             </a>
             <span className="prof-name">John Paul
                 <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
